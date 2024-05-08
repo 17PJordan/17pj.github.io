@@ -1,0 +1,111 @@
+html {
+	background: #000000;
+  font-family: 'Poppins', cursive
+}
+h1{
+	color:#000000;
+	
+	font-family: 'Poppins', cursive;
+}
+h2{
+	color:#000000;
+	
+	font-family: 'Poppins', cursive;
+}
+
+p{
+	color:#000000;
+	
+	font-family: 'Poppins', cursive;
+}
+li{
+	color:#000000;
+	font-size: 20px;
+	font-family: 'Poppins', cursive;
+}
+label{
+  color:#000000;
+  font-family: 'Poppins', cursive;
+}
+/*HEADER WITH NAVIGATION*/
+
+header {
+  background-color: #d4e9e2;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+border-style: solid;
+}
+
+body {
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  border-style: solid;
+}
+
+nav ul {
+  list-style: none;
+  padding: 30px;
+  display: flex;
+  justify-content: center
+
+ 
+}
+nav li {
+  margin: 0 10px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+/*FOOTER*/
+footer {
+  background-color: #d4e9e2 ;
+  color: #000000;
+  padding: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+}
+
+.footer-info,
+.social-media {
+  flex: 1;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+/* FLEXBOX */
+/* Apply Flexbox to the main container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d4e9e2 ;
+  padding: 20px;
+}
+
+/* Style each flex item (section) */
+.flex-item {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Style the heading and paragraph inside each section */
+.flex-item h2 {
+  color: #000000;
+}
+
+.flex-item p {
+  color: #000000;
+}
+
